@@ -25,7 +25,7 @@ most important part. Add your answer to this markdown file.
 
 The time complexity of my algorithm is $\Theta(n! \cdot n)$. The best case input is a sorted input and it's time complextiy would be $\Theta(n)$ since it needs to go through the list to ensure it is properly sorted. The worst case input is where the list is sorted except for the least element which is in the far right position and this would give you the complexity of $\Theta(n! \cdot n)$ as it not only has to loop through every element to see if its ordered correctly, but it also has to try every permutation.
 
-If you generated permutations randomly without memory then the time complexity would be $\Theta(n! \cdot n)$. We would expect that the average case would take about half the permutations inorder to generate a sorted input so this would be $\frac{n! \cdot n}{2} \in \Theta(n! \cdot n)$.
+If you generated permutations randomly without memory then the time complexity would be infinite, as there is no garentee that it would ever finish. It could miss the correct permutation forever.
 
 ## Sources 
 
